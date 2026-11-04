@@ -1,0 +1,32 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables (secrets)
+.env
+.env.local
+
+# Generated database and logs
+company_vault.db
+scheduler.log
+*.db
+
+# Generated assets
+*.png
+*.mp4
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo

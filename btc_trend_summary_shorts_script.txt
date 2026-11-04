@@ -1,0 +1,5 @@
+VIDEO RENDER SKIPPED
+Reason: No module named 'moviepy.editor'
+
+SCRIPT:
+BTC Trend Summary. Goal: Build an automated BTC trend analysis app, run a quick backtest, record a summary shorts video, log everything, and push to Instagram.. Trading desk output: Trade Executed: BUY 0.001 BTCINR at 65420.5.. Automated short-form video for social distribution.

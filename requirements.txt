@@ -1,0 +1,12 @@
+# Autonomous Multi-Agent AI Business Pipeline - TRD v2.0 (Production)
+# Pinned for Python 3.11 / 3.12 stability (avoids Python 3.14 wheel compile issues)
+# Adjusted for Python 3.14 compatibility where needed
+crewai==0.11.2
+langchain==0.1.13
+langchain-core>=0.1.52,<0.2.0
+langchain-community==0.0.38
+langchain-google-genai>=0.5.0,<1.0.0
+python-dotenv==1.0.1
+requests==2.32.3
+moviepy==1.0.3
+Pillow==10.4.0

@@ -1,0 +1,15 @@
+# cron_schedule.txt - Unix/Linux crontab entry (run at 09:30 AM daily)
+#
+# Install with: crontab -e   then paste the line below (edit paths to match).
+#
+# Example:
+#   30 9 * * * /home/user/odlixceo/.venv/bin/python /home/user/odlixceo/ops_scheduler.py >> /home/user/odlixceo/scheduler.log 2>&1
+#
+# Generic form:
+#   30 9 * * * <VENV_PYTHON> <PROJECT_ROOT>/ops_scheduler.py >> <PROJECT_ROOT>/scheduler.log 2>&1
+#
+# Ensure META_ACCESS_TOKEN, META_PAGE_ID, COINDCX_API_KEY, COINDCX_SECRET_KEY,
+# GEMINI_API_KEY, and PIPELINE_GOAL are exported in the cron environment
+# (or defined in /home/user/odlixceo/.env, which ops_scheduler.py loads).
+
+30 9 * * * /path/to/odlixceo/.venv/bin/python /path/to/odlixceo/ops_scheduler.py >> /path/to/odlixceo/scheduler.log 2>&1
