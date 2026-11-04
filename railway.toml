@@ -1,0 +1,7 @@
+[deploy]
+startCommand = "python wrapper.py"
+
+[[volumes]]
+name = "odlixceo-data"
+mountPath = "/data"
+size = "1Gi"
